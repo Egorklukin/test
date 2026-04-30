@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_lessons">
+
+    <fragment
+        android:id="@+id/navigation_lessons"
+        android:name="com.example.physmath.ui.lessons.LessonsFragment"
+        android:label="Lessons" />
+    
+    <fragment
+        android:id="@+id/navigation_tests"
+        android:name="com.example.physmath.ui.test.TestsListFragment"
+        android:label="Tests" />
+    
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.physmath.ui.settings.SettingsFragment"
+        android:label="Settings" />
+    
+    <fragment
+        android:id="@+id/lessonDetailFragment"
+        android:name="com.example.physmath.ui.lessons.LessonDetailFragment"
+        android:label="Lesson Detail">
+        <argument
+            android:name="lessonId"
+            app:argType="integer" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.physmath.ui.test.TestFragment"
+        android:label="Test">
+        <argument
+            android:name="lessonId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

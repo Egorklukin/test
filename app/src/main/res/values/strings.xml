@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhysMath</string>
+    <string name="lessons">Lessons</string>
+    <string name="tests">Tests</string>
+    <string name="settings">Settings</string>
+    <string name="all">All</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="physics">Physics</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="download">Download</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="start_test">Start Test</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="next_question">Next Question</string>
+    <string name="retry">Retry</string>
+    <string name="result">Result</string>
+    <string name="correct_answers">Correct Answers</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="no_internet">No internet connection. Please connect to download lessons.</string>
+    <string name="lesson_downloaded">Lesson downloaded successfully</string>
+    <string name="explanation">Explanation</string>
+    <string name="wrong_answer">Wrong Answer</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="select_file">Select File</string>
+    <string name="file_exported">File exported successfully</string>
+    <string name="import_completed">Импорт завершен</string>
+    <string name="import_error">Sorry, data from this file can\'t be imported</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+</resources>
